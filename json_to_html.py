@@ -58,6 +58,7 @@ def convert_json():
             else:
                 print("Mapping for "+key+" not defined")
     output_file.write('</html>')
+    output_file.close();
 
 
 convert_json()
